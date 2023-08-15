@@ -79,5 +79,5 @@ func main() {
 	api.DELETE("/user/:id", DeleteUser)
 	api.DELETE("/user/name/:name", DeleteUserByName)
 
-	router.Run("localhost:81")
+	router.Run("localhost:8080")
 }
